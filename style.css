@@ -154,7 +154,7 @@
         rgba(242, 120, 92, 0.7),
         rgba(242, 120, 92, 0.7)
       ),
-      url(../travel/img/jp/1.jpg); /*делаем наложение фона на картинку*/
+      url(../img/jp/1.jpg); /*делаем наложение фона на картинку*/
   }
 
   /*выставляем лого1*/
@@ -208,7 +208,7 @@
 
   /*ставим фон из preview на два блока*/
   .preview {
-    background-image: url("../travel/img/jp/1.jpg");
+    background-image: url("../img/jp/1.jpg");
     background-repeat: no-repeat;
     width: 1440px; /*-----------------------------------------*/
     height: 750px;
@@ -485,7 +485,7 @@
     width: 1440px;
     height: 1331px;
     margin-top: 40px;
-    background-image: url("../travel/img/jp/stories_fon.jpg");
+    background-image: url("../img/jp/stories_fon.jpg");
     background-repeat: no-repeat;
   }
   .c1 {
@@ -805,7 +805,7 @@
     top: 0px;
 
     background: linear-gradient(180deg, #0d606f 0%, rgba(13, 96, 111, 0) 25.1%),
-      url("../travel/pic_mobail/jpg/header_pic.jpg");
+      url("../pic_mobail/jpg/header_pic.jpg");
     /*background: url('../travel/pic_mobail/svg/header.svg'),url('../travel/pic_mobail/svg/burger.svg');*/
   }
 }
@@ -1178,7 +1178,7 @@
     margin-top: 10px;
     background-repeat: no-repeat;
 
-    background: url("../travel/pic_mobail/jpg/footer_m.jpg");
+    background: url("../pic_mobail/jpg/footer_m.jpg");
   }
   .mobail_travel {
     position: absolute;

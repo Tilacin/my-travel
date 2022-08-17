@@ -1,0 +1,1699 @@
+/* red-hat-text-regular - latin */
+@font-face {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./fonts/red-hat-text-v11-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/red-hat-text-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* red-hat-text-500 - latin */
+@font-face {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("./fonts/red-hat-text-v11-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./fonts/red-hat-text-v11-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* aleo-regular - latin */
+@font-face {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/aleo-v11-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/aleo-v11-latin-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/aleo-v11-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/aleo-v11-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/aleo-v11-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/aleo-v11-latin-regular.svg#Aleo")
+      format("svg"); /* Legacy iOS */
+}
+/* aleo-700 - latin */
+@font-face {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/aleo-v11-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/aleo-v11-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/aleo-v11-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/aleo-v11-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/aleo-v11-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/aleo-v11-latin-700.svg#Aleo")
+      format("svg"); /* Legacy iOS */
+}
+/* aleo-700italic - latin */
+@font-face {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  src: url("./fonts/aleo-v11-latin-700italic.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/aleo-v11-latin-700italic.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/aleo-v11-latin-700italic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/aleo-v11-latin-700italic.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/aleo-v11-latin-700italic.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/aleo-v11-latin-700italic.svg#Aleo")
+      format("svg"); /* Legacy iOS */
+}
+
+/* magra-regular - latin */
+@font-face {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/magra-v14-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/magra-v14-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/magra-v14-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/magra-v14-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/magra-v14-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/magra-v14-latin-regular.svg#Magra")
+      format("svg"); /* Legacy iOS */
+}
+/* magra-700 - latin */
+@font-face {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/magra-v14-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("./fonts/magra-v14-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("./fonts/magra-v14-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("./fonts/magra-v14-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("./fonts/magra-v14-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("./fonts/magra-v14-latin-700.svg#Magra")
+      format("svg"); /* Legacy iOS */
+}
+.container {
+  max-width: 1440px;
+
+  margin: 0px auto;
+}
+@media (max-width: 1440px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media screen and (min-width: 391px) {
+  html {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    scroll-behavior: smooth;
+  }
+  /*изменяем цвет ссылок*/
+  a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+  }
+
+  a:hover {
+    color: #800000; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+  }
+
+  /*контейнер для header---------------------*/
+  .header_wrapper {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .header_wrapper {
+    width: 1440px; /*------------------------------------*/
+    height: 90px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+
+    background: linear-gradient(
+        rgba(242, 120, 92, 0.7),
+        rgba(242, 120, 92, 0.7)
+      ),
+      url(../travel/img/jp/1.jpg); /*делаем наложение фона на картинку*/
+  }
+
+  /*выставляем лого1*/
+  .header_logo1 {
+    width: 103px;
+    height: 41px;
+    margin-left: 106px;
+    margin-bottom: 17px;
+  }
+  /*выставляем лого*/
+  .header_logo {
+    margin-bottom: 7px;
+    margin-left: 120px;
+  }
+  /*высавляем нав*/
+  .header_list {
+    display: flex;
+
+    width: 727px;
+    height: 21px;
+  }
+  .header_item {
+    margin-right: 48px;
+    list-style: none;
+  }
+  .header_item1 {
+    margin-left: 158px;
+  }
+  .header_item2 {
+    margin-left: 43px;
+  }
+  .header_item3 {
+    margin-left: 43px;
+  }
+  .header_item4 {
+    margin-left: 43px;
+  }
+
+  .header_link {
+    text-decoration: none;
+  }
+  .header_link {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+
+  /*ставим фон из preview на два блока*/
+  .preview {
+    background-image: url("../travel/img/jp/1.jpg");
+    background-repeat: no-repeat;
+    width: 1440px; /*-----------------------------------------*/
+    height: 750px;
+    background-position: center calc(-90px); /*обрезаем по верху блока*/
+  }
+  .preview_wrapper {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1440px; /*---------------*/
+  }
+  /*вставляем текст в preview */
+  .preview_text1 {
+    width: 808px;
+    margin-top: 32px;
+    margin-left: 120px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #ffffff;
+  }
+
+  .preview_text2 {
+    width: 723px;
+    height: 24px;
+    margin-left: 120px;
+    margin-top: 32px;
+
+    font-family: "Aleo";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .previev_properties {
+    width: 892px;
+    height: 95px;
+    margin-left: 120px;
+    margin-top: 46px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+  }
+  .preview-pic3 {
+    margin-left: 41px;
+    margin-top: 35px;
+  }
+  .preview-pic4 {
+    margin-left: 637px;
+    margin-top: -88px;
+  }
+  /*секция степ*/
+  .steps_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1320px;
+    height: 247px;
+  }
+
+  .steps_text {
+    width: 611px;
+    height: 53px;
+    margin-left: 415px;
+    margin-top: 2px;
+  }
+  /*ровняем фон под велосипедистом*/
+  .steps_icon11 {
+    margin-top: 44px;
+    margin-left: 205px;
+    background: #f2785c;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .steps_icon12 {
+    margin-top: 44px;
+    margin-left: 366px;
+    background: #f2785c;
+    border-radius: 17px;
+    width: 100px;
+    height: 100px;
+  }
+  .steps_icon13 {
+    margin-left: 330px;
+    margin-top: 44px;
+    background: #f2785c;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+  }
+  /*равняем велосипедиста и т.д.*/
+  .steps_pic1 {
+    margin-left: 25px;
+    margin-top: 28px;
+  }
+  .steps_pic2 {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+  .steps_pic3 {
+    margin-left: 20px;
+    margin-top: 28px;
+  }
+  /*текст под иконками и выше*/
+  .icon_text {
+    display: flex;
+    width: 1320px;
+  }
+  ._text {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    margin-top: 4px;
+    color: #f2785c;
+  }
+  .text_icon1 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+    margin-left: 132px;
+    margin-top: 30px;
+  }
+  .text_icon2 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+    margin-left: 231px;
+    margin-top: 30px;
+  }
+  .text_icon3 {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+    margin-left: 160px;
+    margin-top: 30px;
+  }
+  /*секция destinations*/
+  .destinations_wraper {
+    display: flex;
+    width: 1440px;
+    height: 1042px;
+  }
+  .popular_text {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+    margin-left: 471px;
+    margin-top: 103px;
+  }
+
+  .usa,
+  .japan,
+  .spain {
+    position: absolute;
+    top: 89.7%;
+    left: 2.2%;
+    width: 108px;
+    height: 42px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+  .carousel {
+    display: block;
+    background: #ffffff;
+    max-width: 1440px;
+    width: 100%;
+  }
+
+  .carousel-cell {
+    max-height: 800px;
+    max-width: 800px;
+    margin-right: 59px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  .destinations {
+    max-width: 1440px;
+    width: 100%;
+  }
+  .carousel {
+    margin-top: 45px;
+  }
+  .carousel1,
+  .carousel2,
+  .carousel3 {
+    max-height: 800px;
+    max-width: 800px;
+    border-radius: 16px;
+  }
+  .flickity-page-dots .dot {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92);
+    border-radius: 45%;
+    margin-left: 5px;
+  }
+  .flickity-page-dots {
+    bottom: -47px;
+  }
+
+  /*-------------------------------------------------------*/
+  .frame3 {
+    display: flex;
+    width: 228px;
+    height: 59px;
+    margin-left: 607px;
+    margin-top: 83px;
+    background: #0d606f;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+      0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+  }
+  .arrow {
+    margin-top: 17px;
+    margin-left: 33px;
+    width: 35px;
+    height: 22.5px;
+  }
+  .find_more {
+    width: 113px;
+    height: 30px;
+    margin-top: -11px;
+    margin-left: -16px;
+  }
+  /*блок сториес*/
+
+  .h2_stories {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #f2785c;
+    margin-top: 183px;
+    margin-left: 552px;
+  }
+  .stories_bloc {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 1331px;
+    margin-top: 40px;
+    background-image: url("../travel/img/jp/stories_fon.jpg");
+    background-repeat: no-repeat;
+  }
+  .c1 {
+    display: flex;
+    height: 1270px;
+    width: 1440px;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .stories_pic,
+  .stories_text {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .travel_pic1 {
+    margin-top: 40px;
+    margin-left: 119px;
+  }
+  .pic_1,
+  .pic_2,
+  .pic_3,
+  .pic_4 {
+    width: 400px;
+    height: 250px;
+    left: 120px;
+    top: 2444px;
+
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+  }
+  .travel_pic2 {
+    margin-top: 30px;
+    margin-left: 119px;
+    border-radius: 16px;
+  }
+  .travel_pic3 {
+    margin-top: 30px;
+    margin-left: 119px;
+    border-radius: 16px;
+  }
+  .travel_pic4 {
+    margin-top: 30px;
+    margin-left: 119px;
+    border-radius: 16px;
+  }
+
+  .travel_text1 {
+    margin-left: 40px;
+  }
+  .travel_text2 {
+    margin-left: 40px;
+  }
+  .travel_text3 {
+    margin-left: 40px;
+  }
+  .travel_text4 {
+    margin-left: 40px;
+  }
+
+  .text_11 {
+    width: 760px;
+    height: 42px;
+    margin-top: 41px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0d606f;
+  }
+  .text_1 {
+    width: 760px;
+    height: 184px;
+    margin-top: 23px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0d606f;
+  }
+
+  .text_22 {
+    width: 760px;
+    height: 46px;
+
+    margin-top: 31px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #0d606f;
+  }
+  .text_2 {
+    width: 760px;
+    height: 184px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0d606f;
+    margin-top: 19px;
+  }
+
+  .text_33 {
+    width: 760px;
+    height: 42px;
+    margin-top: 31px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0d606f;
+  }
+  .text_3 {
+    width: 760px;
+    height: 184px;
+    left: 560px;
+    top: 3070px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0d606f;
+    margin-top: 23px;
+  }
+
+  .text_44 {
+    width: 760px;
+    height: 42px;
+    left: 559px;
+    top: 3284px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    margin-top: 31px;
+
+    color: #0d606f;
+  }
+
+  .text_4 {
+    width: 760px;
+    height: 184px;
+    left: 559px;
+    top: 3350px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0d606f;
+    margin-top: 23px;
+  }
+  .stories__link {
+    color: #0d606f;
+    font-weight: bold;
+  }
+  .see_more {
+    width: 234px;
+    height: 68px;
+    margin-top: 36px;
+    margin-left: 39px;
+  }
+
+  button {
+    display: flex;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    height: 68px;
+    width: 200px;
+    cursor: pointer;
+  }
+  /*подвал*/
+  .footer {
+    display: flex;
+    height: 61px;
+    width: 1440px;
+  }
+
+  .footer_wraper {
+    display: flex;
+    height: 61px;
+  }
+  ul.footer_link li {
+    display: inline;
+  }
+  ul.footer_link_rs li {
+    display: inline;
+  }
+
+  .github {
+    width: 35px;
+    height: 35px;
+  }
+
+  .instagram_rs {
+    margin-left: 331px;
+    margin-top: 15px;
+  }
+
+  .twitter_rs {
+    margin-left: 17px;
+    margin-top: 15px;
+  }
+
+  .youtube_rs {
+    margin-left: 15px;
+    margin-top: 12px;
+  }
+
+  .rs-school {
+    width: 75px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  .github {
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+  .footer_travel {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+
+    margin-top: 21px;
+    margin-left: 410px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  img[hidden] {
+    display: none;
+  }
+}
+@media screen and (min-width: 2000px) {
+  div[hidden] {
+    display: none;
+  }
+
+  @media (max-width: 390px) {
+    img[hidden] {
+      display: block;
+    }
+  }
+
+  @media (max-width: 390px) {
+    div[hidden] {
+      display: block;
+    }
+  }
+}
+
+/*-----------------*/
+@media screen and (max-width: 390px) {
+  @media screen and (min-width: 390px) {
+    img[hidden] {
+      display: none;
+    }
+  }
+  @media (max-width: 390px) {
+    img[hidden] {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 390px) {
+    nav[hidden] {
+      display: none;
+    }
+  }
+  @media (max-width: 390px) {
+    nav[hidden] {
+      display: block;
+    }
+  }
+
+  @media (max-width: 390px) {
+    div[hidden] {
+      display: block;
+    }
+  }
+
+  html {
+    box-sizing: border-box;
+    margin: 0px auto;
+  }
+  .container {
+    display: flex;
+    flex-flow: column;
+  }
+  .preview_wrapper {
+    display: flex;
+    width: 390px;
+    height: 251px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #0d606f 0%, rgba(13, 96, 111, 0) 25.1%),
+      url("../travel/pic_mobail/jpg/header_pic.jpg");
+    /*background: url('../travel/pic_mobail/svg/header.svg'),url('../travel/pic_mobail/svg/burger.svg');*/
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .mobail_logo1 {
+    max-width: 29px;
+    max-height: 30px;
+    padding-top: 45px;
+    padding-left: 16px;
+  }
+  .header_burger {
+    max-width: 35px;
+
+    padding-bottom: 133px;
+    padding-left: 292px;
+  }
+
+  .header,
+  .preview_text1,
+  .preview_text2,
+  .carousel,
+  .circles,
+  .frame3,
+  footer,
+  .stories_text,
+  .stories_pic,
+  .travel_pic1,
+  .travel_pic2,
+  .travel_pic3,
+  .travel_pic4 {
+    display: none;
+  }
+
+  .previev_properties {
+    display: flex;
+    position: absolute;
+    width: 360px;
+    height: 48px;
+    left: 15px;
+    top: 142px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+  }
+  .stories__link {
+    color: #0d606f;
+  }
+  .preview-pic3 {
+    height: 13.5px;
+    margin-top: 18px;
+    margin-left: 16px;
+  }
+  /*-------------бургер-------*/
+  .header_nav_m {
+    position: fixed;
+    width: 165px;
+    height: 250px;
+    margin-left: 225px;
+    background: #f2785c;
+    box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+    border-radius: 10px;
+    z-index: 1;
+    transform: translateX(100%);
+    transition: 0.2s all linear;
+  }
+  .header_nav_m_active {
+    transform: translateX(0);
+  }
+  .header_item {
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  .cross {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .button1 {
+    display: flex;
+
+    width: 92px;
+    height: 30px;
+    margin-left: 78px;
+    margin-top: 9px;
+
+    background: #0d606f;
+    border-radius: 10px;
+    border: none;
+  }
+  .preview-pic4 {
+    height: 100%;
+    width: 100%;
+
+    font-family: "Red Hat Text";
+    font-size: 11px;
+    line-height: 15px;
+
+    color: #ffffff;
+  }
+  .stories_pic {
+    display: flex;
+    flex-flow: column;
+  }
+  .steps {
+    display: flex;
+    width: 360px;
+    height: 173px;
+    left: 15px;
+    top: 271px;
+  }
+  ._text {
+    margin-left: 88px;
+    margin-top: 20px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2785c;
+  }
+  .steps_icon11 {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-top: 21px;
+    margin-left: 15px;
+    background: #f2785c;
+    border-radius: 16px;
+  }
+  .steps_pic1 {
+    height: 45%;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+  .steps_icon12 {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-top: -71px;
+    margin-left: 159px;
+    background: #f2785c;
+    border-radius: 16px;
+  }
+  .steps_pic2 {
+    height: 50%;
+    margin-top: 18px;
+    margin-left: 18px;
+  }
+  .steps_icon13 {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-left: 305px;
+    margin-top: -70px;
+
+    background: #f2785c;
+    border-radius: 16px;
+  }
+  .steps_pic3 {
+    height: 44%;
+    margin-top: 21px;
+    margin-left: 15px;
+  }
+  .text_icon1 {
+    position: absolute;
+    width: 94px;
+    height: 22px;
+    left: 15px;
+    top: 400px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #0d606f;
+  }
+  .text_icon2 {
+    position: absolute;
+    width: 121px;
+    height: 12px;
+    left: 140px;
+    top: 400px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    color: #0d606f;
+  }
+  .text_icon3 {
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 277px;
+    top: 400px;
+
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+
+    color: #0d606f;
+  }
+  .destinations {
+    max-width: 390px;
+  }
+  .popular_text {
+    position: absolute;
+    width: 176px;
+    height: 19px;
+    left: 107px;
+    top: 444px;
+
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2785c;
+  } 
+  .frame_carousel {
+    margin-top: 6px;
+    margin-left: 146px;
+  }
+  .stories_bloc,
+  .stories_text,
+  .c1 {
+    max-width: 390px;
+  }
+  .h2_stories {
+    width: 118px;
+    height: 19px;
+    margin-top: 16px;
+    margin-left: 135px;
+
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f2785c;
+  }
+  .stories_pic {
+    display: flex;
+  }
+
+  .pic_1m {
+    width: 155px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: url(robin-noguier-sydwCr54rf0-unsplash);
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+  }
+  .t1m {
+    width: 164px;
+    height: 13px;
+    margin-left: 180px;
+    margin-top: -125px;
+  }
+  .t1m,
+  .t2m,
+  .t3m,
+  .t4m {
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #0d606f;
+  }
+  .t11m,
+  .t22m,
+  .t33m,
+  .t44m {
+    width: 195px;
+    height: 102px;
+    font-family: "Aleo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    color: #0d606f;
+  }
+  .t11m {
+    margin-left: 179px;
+    margin-top: 10px;
+  }
+  .pic_2m {
+    width: 155px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+    background: url(.jpg);
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+  }
+  .t2m {
+    width: 170px;
+    height: 13px;
+    margin-left: 180px;
+    margin-top: -125px;
+  }
+  .t22m {
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+  .pic_3m {
+    width: 155px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: url();
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+  }
+  .t3m {
+    width: 165px;
+    height: 13px;
+    margin-left: 180px;
+    margin-top: -124px;
+  }
+  .t33m {
+    margin-left: 180px;
+    margin-top: 9px;
+  }
+  .pic_4m {
+    width: 155px;
+    height: 130px;
+    margin-left: 15px;
+    margin-top: 15px;
+    background: url(dino-reichmuth-A5rCN8626Ck-unsplash);
+    filter: drop-shadow(0px 4px 4px #0d606f);
+    border-radius: 16px;
+  }
+  .t4m {
+    width: 157px;
+    height: 13px;
+    margin-left: 180px;
+    margin-top: -125px;
+  }
+  .t44m {
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+  .stories_bloc {
+    width: 390px;
+    height: 693px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+
+    background: url("../travel/pic_mobail/jpg/footer_m.jpg");
+  }
+  .mobail_travel {
+    position: absolute;
+    width: 390px;
+    height: 628px;
+    left: 0px;
+  
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .see_more_m1 {
+    margin-top: 9px;
+    margin-left: 143px;
+  }
+
+  .button_m1 {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .footer_wraper_m {
+    display: flex;
+    margin-left: 130px;
+  }
+  .footer_link1 {
+    margin-top: 28px;
+  }
+  .footer_rs {
+    margin-top: 30px;
+    margin-left: 21px;
+  }
+  .footer_link2 {
+    margin-top: 30px;
+    margin-left: 21px;
+  }
+  /*-------карусель-------*/
+
+  html {
+    overflow-y: scroll;
+  }
+
+  .carousel_m {
+    max-width: 390px;
+    width: 100%;
+  }
+
+  .carousel-cell_m {
+    width: 100%;
+    margin-top: 58px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+
+  .carousel1,
+  .carousel2,
+  .carousel3 {
+    max-height: 210px;
+    max-width: 360px;
+    width: 100%;
+    border-radius: 16px;
+    margin-left: 3.8%;
+  }
+  .flickity-page-dots .dot {
+    width: 9px;
+    height: 9px;
+    margin-bottom: 33px;
+    background: rgba(242, 120, 92);
+    border-radius: 45%;
+  }
+  .usa,
+  .japan,
+  .spain {
+    position: absolute;
+    bottom: 84%;
+    left: 7.6%;
+    width: 60px;
+    height: 26px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #ffffff;
+  }
+  .flickity-button-icon {
+    fill: #f2785c;
+  }
+  .flickity-button {
+    background: transparent;
+    margin-top: 30px;
+  }
+  .stories__link {
+    font-weight: bold;
+  }
+
+}
+/*-----------попап----------*/
+.modal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(117, 110, 108, 0.3);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  top: -1000px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+
+.modal__content {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 650px;
+  height: 660px;
+top: 0;
+  background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.modal__close-button {
+  background: #0D606F;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+  
+}
+ 
+.modal__close-button:hover {
+  transition: .3s;
+  transform: rotate(180deg);
+}
+
+
+.log_pop {
+  position: absolute;
+  width: 328px;
+  height: 38px;
+  
+  left: 161px;
+  top: 25px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #0d606f;
+}
+
+.sign_facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+  position: absolute;
+  width: 560px;
+  height: 56px;
+ 
+  left: 45px;
+  top: 93px;
+
+  background: #1877f2;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+.sign_google {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+
+  position: absolute;
+  width: 560px;
+  height: 56px;
+  
+  left: 45px;
+  top: 169px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+.or_line {
+  position: absolute;
+  width: 560px;
+  height: 24px;
+  
+  left: 45px;
+  top: 255px;
+}
+.mail_text {
+  position: absolute;
+  width: 47px;
+  height: 19px;
+  
+  left: 45px;
+  top: 289px;
+
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0d606f;
+}
+.input_main {
+  position: absolute;
+  width: 560px;
+  height: 54px;
+ 
+  left: 45px;
+  top: 313px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+    inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+.password {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 45px;
+  top: 387px;
+  
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0d606f;
+}
+.input_password {
+  position: absolute;
+  width: 560px;
+  height: 54px;
+  left: 45px;
+  top: 411px;
+ 
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+  inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+.sign_button {
+
+  margin-top: 490px;
+}
+.forgot {
+  position: absolute;
+width: 159px;
+height: 18px;
+left: 246px;
+top: 554px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-decoration-line: underline;
+
+color: #0D606F;
+
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+.sign_line {
+  position: absolute;
+width: 560px;
+height: 0px;
+left: 45px;
+top: 598px;
+
+border: 1px solid rgba(13, 96, 111, 0.5);
+transform: rotate(0.1deg);
+}
+.register {
+position: absolute;
+width: 219px;
+height: 18px;
+left: 216px;
+top: 619px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color: rgba(13, 96, 111, 0.5);
+
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+.sign_link {
+  font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+position: absolute;
+right: 215px;
+top: 619px;
+
+
+color: rgba(13, 96, 111, 0.5);
+
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16)
+}
+
+@media screen and (max-width: 390px) {
+.pop_account, .modal__content_active {
+  position: absolute;
+  justify-content: center;
+  right: 50%;
+  zoom: 0.3;
+  -moz-transform: scale(2);/* Firefox Property */
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(2);/* Opera Property */
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(2);/* Safari Property */
+  -webkit-transform-origin: 0 0;
+  transform: scale(2); /* Standard Property */
+  transform-origin: 0 0;  /* Standard Property */
+}
+}
+
+.modal_active {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: .3s;
+}
+.log_pop1 {
+  position: absolute;
+width: 219px;
+height: 38px;
+left: 215px;
+top: 25px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+color: #0D606F;
+
+}
+/*------------------------------*/
+.second {
+  display: none;
+}
+.first {
+  display: block;
+}
+.modal__content_active {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 650px;
+height: 436px;
+top: 0;
+  background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  
+}
+.sign_button1 {
+  left: 25;
+  margin-top: 294px;
+}
+.mail_text1 {
+  left: 45px;
+  top: 93px;
+
+  position: absolute;
+  width: 47px;
+  height: 19px;
+  
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0d606f;
+}
+.input_main1 {
+  left: 45px;
+  top: 117px;
+
+  position: absolute;
+  width: 560px;
+  height: 54px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+    inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+
+}
+.password1 {
+  left: 45px;
+  top: 191px;
+
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #0d606f;
+}
+.input_password1 {
+  left: 45px;
+  top: 215px;
+
+  position: absolute;
+  width: 560px;
+  height: 54px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+  inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+.sign_line1 {
+  left: 45px;
+top: 374px;
+position: absolute;
+width: 560px;
+height: 0px;
+
+border: 1px solid rgba(13, 96, 111, 0.5);
+transform: rotate(0.1deg);
+
+}
+.register1 {
+  position: absolute;
+width: 200px;
+height: 18px;
+left: 216px;
+top: 395px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: rgba(13, 96, 111, 0.5);
+
+text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+  }
+  .sign_link1 {
+    font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  position: absolute;
+  right: 210px;
+  top: 395px;
+  
+  
+  color: rgba(13, 96, 111, 0.5);
+  
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16)
+  }
+  @media screen and (min-width: 391px) {
+  .button_alert, .button_alert1 {
+    display: flex;
+    background: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-right: 370px;
+  }
+}
+  @media screen and (max-width: 390px) {
+  .button_alert, .button_alert1 {
+    display: flex;
+    background: transparent;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+  }
+}
